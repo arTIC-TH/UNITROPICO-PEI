@@ -33,3 +33,23 @@ A continuación, se sintetizan los puntos clave sobre la deserción y permanenci
     *   Las **prácticas académicas y pasantías** son un medio inicial para que los estudiantes se relacionen con el entorno, adquieran experiencia y fortalezcan su sentido de pertenencia [UNITROPICO-VICEEXT.m4a 696].
 
 En síntesis, Unitrópico ha desarrollado un **enfoque multifacético y colaborativo** para abordar la deserción y fomentar la permanencia, integrando el bienestar estudiantil, el apoyo académico, psicosocial y financiero, así como una política de inclusión y flexibilidad curricular, todo enmarcado en el propósito de formar profesionales integrales y comprometidos con su región y el mundo [PEI2021.md 280, 282, textopei_ES.pdf 724, 727].
+
+----
+
+A continuación, se detallan las metas del Plan de Desarrollo Institucional (PDI) 2024-2028 que abordan la **permanencia** y la **deserción** estudiantil. Estas metas se encuentran bajo el **Eje Estratégico 3: Ecosistema para el conocimiento**, específicamente dentro del programa "**Desarrollo humano integral para una vida universitaria saludable y solidaria**" y su proyecto "**Compromiso con la prevención y el apoyo en la vida universitaria, orientado a alcanzar el éxito y la realización personal**".
+
+Las metas son las siguientes:
+
+*   **Meta E3M38**: **Crear e implementar una estrategia o programa integral que brinde acompañamiento a los estudiantes durante las etapas de inducción, permanencia y graduación**, proporcionando apoyo en los aspectos académicos, psicosociales y socioeconómicos.
+    *   **Indicador de seguimiento**: Número total de participantes en el programa de **permanencia** y graduación.
+    *   **Programación Física (progreso anual en porcentaje de participantes)**: 10% (Año 1), 30% (Año 2), 30% (Año 3), 30% (Año 4).
+
+*   **Meta E3M39**: **Implementar un sistema de alertas tempranas estableciendo criterios claros para la identificación de riesgos de deserción estudiantil**.
+    *   **Indicador de seguimiento**: Porcentaje de estudiantes en riesgo de **deserción** identificados e intervenidos mediante el Sistema de Alertas Tempranas.
+    *   **Programación Física (porcentaje de estudiantes atendidos)**: 0% (Año 1), 40% (Año 2), 40% (Año 3), 20% (Año 4).
+
+*   **Meta E3M40**: **Sostener en un dígito la tasa de deserción**. Esto implica mantenerla por debajo del 10% [conversación previa].
+    *   **Indicador de seguimiento**: Tasa de **deserción** anual.
+    *   **Programación Física (logro de la meta)**: 100% (Año 1), 100% (Año 2), 100% (Año 3), 100% (Año 4).
+
+Estas metas reflejan el compromiso de Unitrópico con el **bienestar estudiantil** y el **éxito académico**, abordando de manera proactiva la **retención** y buscando reducir la **deserción** a través de programas de apoyo integral y sistemas de detección temprana.
