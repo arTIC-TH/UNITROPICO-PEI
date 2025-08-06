@@ -70,6 +70,325 @@ Las respuestas reflejan preocupaciones en torno a las condiciones laborales, la 
 
 Este eje aparece débilmente desarrollado. Aunque hay algunas iniciativas institucionales, los docentes perciben una baja apropiación del enfoque internacional. Se sugiere que el PEI defina una política integral de internacionalización que contemple movilidad, cooperación académica internacional, y formación en competencias globales, tanto para docentes como para estudiantes.
 
+> **Resultados detallados**
+
+# Principios UNITROPICO
+
+## Definiciones incluidas en el PEI vigente
+
+- **Accesibilidad:**  
+  > “Es el principio que garantiza las condiciones de ingreso, permanencia y egreso de los estudiantes en la Universidad Internacional del Trópico Americano, a través del acceso efectivo a los servicios educativos, sin distinción de raza, religión, sexo, nacionalidad o condición social, económica, política o discapacidad, en igualdad de condiciones y oportunidades.”
+
+- **Autonomía:**  
+  > “Concebida como la capacidad de la Universidad para gobernarse por sí misma y para definir sus políticas académicas, administrativas y financieras, dentro del marco de la Constitución y la Ley.”
+
+- **Corresponsabilidad:**  
+  > “Implica el compromiso conjunto de los diferentes actores de la comunidad universitaria con la misión institucional y los procesos que contribuyen a su cumplimiento.”
+
+- **Debido Proceso:**  
+  > “Implica la garantía de los derechos y garantías de los miembros de la comunidad universitaria, en el marco del respeto por las normas y procedimientos establecidos por la Universidad.”
+
+- **Economía:**  
+  > “Hace referencia a la administración eficiente y eficaz de los recursos públicos destinados a la educación superior, bajo criterios de sostenibilidad financiera, austeridad y transparencia.”
+
+- **Ética:**  
+  > “Es el principio orientador del comportamiento de los miembros de la comunidad universitaria, en su actuación académica, administrativa e investigativa, con base en los valores institucionales.”
+
+- **Excelencia Académica:**  
+  > “Es el compromiso permanente con la calidad de los procesos formativos, investigativos y de proyección social que desarrolla la institución.”
+
+- **Igualdad:**  
+  > “Garantiza la equidad en el acceso, la permanencia y la graduación, así como en las condiciones laborales y académicas de todos los miembros de la comunidad universitaria.”
+
+- **Integralidad:**  
+  > “Implica la formación de seres humanos en todas sus dimensiones: cognitiva, emocional, social, ética y espiritual.”
+
+- **Responsabilidad Pública:**  
+  > “Compromiso institucional con la rendición de cuentas y la garantía del derecho a la educación superior como bien público.”
+
+- **Libertad de Cátedra:**  
+  > “Reconocimiento del derecho de los docentes a desarrollar sus actividades de enseñanza con autonomía pedagógica, en el marco del respeto a los valores institucionales.”
+
+- **Pertinencia:**  
+  > “Alineación de la oferta académica y de investigación con las necesidades del entorno local, regional y nacional.”
+
+- **Regionalización:**  
+  > “Compromiso con el desarrollo del territorio, mediante la formación de talento humano, la investigación y la proyección social contextualizadas.”
+
+- **Sostenibilidad:**  
+  > “Enfoque institucional orientado al equilibrio entre lo económico, lo social y lo ambiental, en todas sus actuaciones.”
+
+- **Transparencia:**  
+  > “Compromiso con la gestión clara, eficiente y abierta de los recursos, procesos y resultados institucionales.”
+
+- **Trascendencia:**  
+  > “Búsqueda de impacto positivo a largo plazo en la sociedad, a través de la formación de profesionales con sentido ético y compromiso social.”
+
+- **Universalidad:**  
+  > “Apertura a la diversidad cultural, ideológica y académica, en el marco de una educación inclusiva y democrática.”
+
+- **Prevalencia de los Principios:**  
+  > “Reconocimiento de la jerarquía normativa de los principios institucionales como fundamento de las decisiones y actuaciones universitarias.”
+
+## Nota metodológica sobre la normalización de los datos
+
+Los datos representados en la siguiente visualización corresponden a la percepción del profesorado sobre la **importancia relativa de 18 principios institucionales**. Para garantizar una comparación justa entre principios, los valores originales fueron **normalizados**. Esto implica que, para cada principio, se calcularon los porcentajes relativos de cada nivel de importancia (`5 Fundamental`, `4 Muy importante`, etc.), tomando en cuenta únicamente las respuestas válidas, **sin incluir valores faltantes o no respuestas**.
+
+El proceso de normalización asegura que **la suma de los porcentajes para cada fila (principio) sea exactamente 100%**, facilitando así la lectura proporcional y comparativa de la importancia asignada por el profesorado.
+
+## Análisis descriptivo de los resultados
+
+- **Alta valoración**: Ética, Igualdad, Excelencia Académica y Prevalencia de los Principios son los principios más valorados como "Fundamentales" por el profesorado, superando el 75%.
+- **Valoración media**: Integralidad, Libertad de cátedra, Transparencia y Universalidad también reciben una alta proporción de respuestas positivas.
+- **Menor valoración relativa**: Autonomía, Economía, Corresponsabilidad y Regionalización reciben valoraciones más distribuidas o discretas.
+
+## Gráfico 11.1 Resultados de la percepción de los profesores sobre la prioridad de los principios UNITROPICO 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(forcats)
+
+# Datos
+datos <- tribble(
+  ~Principio, ~`5 Fundamental`, ~`4 Muy importante`, ~`3 Importante`, ~`2 Poco importante`, ~`1 Sin importancia`,
+  "Accesibilidad", 19.66, 7.69, 3.42, 1.71, 0.85,
+  "Autonomía", 17.09, 11.11, 3.42, 1.71, 0.85,
+  "Corresponsabilidad", 18.80, 10.26, 2.56, 1.71, 0.85,
+  "Debido Proceso", 20.51, 10.26, 0.00, 3.42, 0.00,
+  "Economía", 16.24, 11.97, 4.27, 1.71, 0.00,
+  "Ética", 28.21, 3.42, 0.85, 0.85, 0.85,
+  "Excelencia Académica", 25.64, 5.13, 0.00, 1.71, 0.85,
+  "Igualdad", 27.35, 1.71, 1.71, 0.85, 0.85,
+  "Integralidad", 23.08, 6.84, 1.71, 0.85, 0.85,
+  "Responsabilidad pública", 17.09, 10.26, 5.13, 0.85, 0.85,
+  "Libertad de cátedra", 20.51, 9.40, 1.71, 0.85, 0.85,
+  "Pertinencia", 19.66, 11.11, 1.71, 1.71, 0.00,
+  "Regionalización", 17.09, 11.11, 3.42, 1.71, 0.85,
+  "Sostenibilidad", 23.08, 8.55, 0.85, 0.85, 0.85,
+  "Transparencia", 24.79, 5.98, 1.71, 0.85, 0.85,
+  "Trascendencia", 18.80, 8.55, 4.27, 1.71, 0.00,
+  "Universalidad", 23.08, 5.13, 1.71, 1.71, 1.71,
+  "Prevalencia de los Principios", 25.64, 5.13, 1.71, 1.71, 0.00
+)
+
+# Normalizar para que sumen 100%
+datos_normalizados <- datos %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(`5 Fundamental`:`1 Sin importancia`))) %>%
+  mutate(across(`5 Fundamental`:`1 Sin importancia`, ~ .x / total * 100)) %>%
+  select(-total)
+
+# Convertir a formato largo
+datos_long <- datos_normalizados |>
+  pivot_longer(cols = -Principio, names_to = "Importancia", values_to = "Porcentaje")
+
+# Colores institucionales
+colores_unitropico <- c(
+  "5 Fundamental" = "#3A6351",
+  "4 Muy importante" = "#61876E",
+  "3 Importante" = "#A7C4A0",
+  "2 Poco importante" = "#DDEAD2",
+  "1 Sin importancia" = "#F2F1EB"
+)
+
+# Gráfico
+ggplot(datos_long, aes(x = Porcentaje, y = fct_rev(Principio), fill = Importancia)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = colores_unitropico) +
+  labs(
+    title = "Importancia asignada a los principios institucionales por el profesorado",
+    x = "Porcentaje (%)",
+    y = "Principio Institucional",
+    fill = "Nivel de importancia"
+  ) +
+  geom_text(data = subset(datos_long, Importancia != "1 Sin importancia"),
+            aes(label = sprintf("%.1f%%", Porcentaje)),
+            position = position_stack(vjust = 0.5),
+            size = 7 / .pt,
+            color = "grey") +
+  xlim(0, 100) +
+  theme_minimal(base_size = 10)
+```
+
+## Tendencias de la educación superior
+
+# Análisis descriptivo
+
+El análisis de la percepción de prioridades del PEI revela una alta valoración de ciertos temas fundamentales. Entre ellos, **“Integración territorial Orinoquía”** se destaca con un 53% de prioridad alta, seguida por **“Garantía de calidad e inclusión”** (49.6%) y **“Educación para el desarrollo sostenible”** (48.7%). Esto sugiere un fuerte compromiso institucional con el desarrollo regional y la equidad educativa.
+
+Asimismo, temas como **“Superación de brechas territoriales”**, **“Liderazgo académico”** y **“Financiamiento sostenible”** también son considerados estratégicos, con valores por encima del 40% en la categoría de prioridad alta. Por otro lado, áreas como **“Ética en IA”** y **“Apropiación social del conocimiento”** muestran un menor consenso en cuanto a su prioridad, siendo esta última la que mayor porcentaje de “Sin prioridad” recibe (13.7%).
+
+Esto permite inferir que la comunidad académica considera prioritaria la articulación entre el territorio, la calidad educativa y el desarrollo sostenible, enmarcados en un enfoque de equidad. Las tecnologías emergentes y la apropiación del conocimiento, aunque reconocidas, aún requieren mayor sensibilización o posicionamiento estratégico dentro del PEI.
+
+# Visualización de resultados
+
+```{r}
+# Cargar librerías
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(forcats)
+
+# Datos
+datos_completos <- tribble(
+  ~Tema, ~`Prioridad alta (%)`, ~`Prioridad estratégica o inmediata (%)`, ~`Prioridad media (%)`, ~`Baja prioridad (%)`, ~`Sin prioridad (%)`,
+  "Garantía de calidad e inclusión", 49.6, 32.5, 12.8, 2.6, 2.6,
+  "Formación y mercado laboral", 41.0, 27.4, 22.2, 5.1, 4.3,
+  "Desigualdad de género", 44.4, 27.4, 16.2, 7.7, 4.3,
+  "Educación para desarrollo sostenible", 48.7, 28.2, 17.9, 2.6, 2.6,
+  "Programas académicos", 38.5, 38.5, 9.4, 3.4, 3.4,
+  "Ética en IA", 22.2, 22.2, 29.9, 12.0, 5.1,
+  "Transformación digital", 42.7, 23.1, 23.9, 6.0, 4.3,
+  "Liderazgo académico", 43.6, 31.6, 16.2, 6.0, 2.6,
+  "Educación y movilidad social", 41.9, 24.8, 25.6, 4.3, 2.6,
+  "Gobernanza y mejora educativa", 37.6, 25.6, 25.6, 6.8, 4.3,
+  "Financiamiento sostenible", 43.6, 27.4, 16.2, 6.8, 5.1,
+  "Integración territorial Orinoquía", 53.0, 27.4, 12.8, 4.3, 2.6,
+  "Superación de brechas territoriales", 47.9, 25.6, 19.7, 4.3, 2.6,
+  "Apropiación social del conocimiento", 28.2, 28.2, 27.4, 2.6, 13.7
+)
+
+# Transformación
+datos_largos <- datos_completos %>%
+  pivot_longer(cols = -Tema, names_to = "Nivel", values_to = "Porcentaje") %>%
+  mutate(Nivel = factor(Nivel, levels = c(
+    "Prioridad alta (%)", "Prioridad estratégica o inmediata (%)", 
+    "Prioridad media (%)", "Baja prioridad (%)", "Sin prioridad (%)"
+  )))
+
+# Ordenar temas por prioridad alta descendente
+orden_temas <- datos_largos %>%
+  filter(Nivel == "Prioridad alta (%)") %>%
+  arrange(desc(Porcentaje)) %>%
+  pull(Tema)
+
+datos_largos <- datos_largos %>%
+  mutate(Tema = factor(Tema, levels = orden_temas))
+
+# Paleta de colores verdes (Unitrópico)
+paleta <- c(
+  "Prioridad alta (%)" = "#3A6351",
+  "Prioridad estratégica o inmediata (%)" = "#61876E",
+  "Prioridad media (%)" = "#A7C4A0",
+  "Baja prioridad (%)" = "#DDEAD2",
+  "Sin prioridad (%)" = "#F2F1EB"
+)
+
+# Graficar
+ggplot(datos_largos, aes(x = Porcentaje, y = Tema, fill = Nivel)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = paleta) +
+  labs(
+    title = "Percepción de prioridades del PEI por tendencias educativas",
+    x = "Porcentaje (%)",
+    y = "Tema",
+    fill = "Nivel de prioridad"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "right")
+```
+
+```{r}
+# Cargar librerías
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(forcats)
+
+# Datos
+datos_completos <- tribble(
+  ~Tema, ~`Prioridad alta (%)`, ~`Prioridad estratégica o inmediata (%)`, ~`Prioridad media (%)`, ~`Baja prioridad (%)`, ~`Sin prioridad (%)`,
+  "Garantía de calidad e inclusión", 49.6, 32.5, 12.8, 2.6, 2.6,
+  "Formación y mercado laboral", 41.0, 27.4, 22.2, 5.1, 4.3,
+  "Desigualdad de género", 44.4, 27.4, 16.2, 7.7, 4.3,
+  "Educación para desarrollo sostenible", 48.7, 28.2, 17.9, 2.6, 2.6,
+  "Programas académicos", 38.5, 38.5, 9.4, 3.4, 3.4,
+  "Ética en IA", 22.2, 22.2, 29.9, 12.0, 5.1,
+  "Transformación digital", 42.7, 23.1, 23.9, 6.0, 4.3,
+  "Liderazgo académico", 43.6, 31.6, 16.2, 6.0, 2.6,
+  "Educación y movilidad social", 41.9, 24.8, 25.6, 4.3, 2.6,
+  "Gobernanza y mejora educativa", 37.6, 25.6, 25.6, 6.8, 4.3,
+  "Financiamiento sostenible", 43.6, 27.4, 16.2, 6.8, 5.1,
+  "Integración territorial Orinoquía", 53.0, 27.4, 12.8, 4.3, 2.6,
+  "Superación de brechas territoriales", 47.9, 25.6, 19.7, 4.3, 2.6,
+  "Apropiación social del conocimiento", 28.2, 28.2, 27.4, 2.6, 13.7
+)
+
+# Transformación
+datos_largos <- datos_completos %>%
+  pivot_longer(cols = -Tema, names_to = "Nivel", values_to = "Porcentaje") %>%
+  mutate(Nivel = factor(Nivel, levels = c(
+    "Prioridad alta (%)", "Prioridad estratégica o inmediata (%)", 
+    "Prioridad media (%)", "Baja prioridad (%)", "Sin prioridad (%)"
+  )))
+
+# Ordenar temas por prioridad alta descendente
+orden_temas <- datos_largos %>%
+  filter(Nivel == "Prioridad alta (%)") %>%
+  arrange(desc(Porcentaje)) %>%
+  pull(Tema)
+
+datos_largos <- datos_largos %>%
+  mutate(Tema = factor(Tema, levels = orden_temas))
+
+# Paleta de colores verdes (Unitrópico)
+paleta <- c(
+  "Prioridad alta (%)" = "#3A6351",
+  "Prioridad estratégica o inmediata (%)" = "#61876E",
+  "Prioridad media (%)" = "#A7C4A0",
+  "Baja prioridad (%)" = "#DDEAD2",
+  "Sin prioridad (%)" = "#F2F1EB"
+)
+
+# Graficar
+ggplot(datos_largos, aes(x = Porcentaje, y = Tema, fill = Nivel)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = paleta) +
+  labs(
+    title = "Percepción de prioridades del PEI por tendencia educativa",
+    x = "Porcentaje (%)",
+    y = "Tema",
+    fill = "Nivel de prioridad"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "right")
+```
+
+## Análisis descriptivo y proyecciones para el PEI
+
+Los resultados evidencian la orientación del cuerpo docente hacia una visión integradora del PEI, articulada con la realidad regional y las tendencias globales. A continuación se presenta un análisis ampliado de las tendencias priorizadas y sus posibles implicaciones para la formulación y ajuste del PEI:
+
+### Tendencias con mayor prioridad
+
+- **Integración territorial Orinoquía (53%)** destaca como la tendencia más priorizada, lo cual reafirma el mandato misional regional de Unitrópico. Esta alta valoración debería traducirse en estrategias específicas de articulación con los actores del territorio, proyectos de investigación aplicada y planes de extensión adaptados a las necesidades de la Orinoquía.
+- **Garantía de calidad e inclusión (49.6%)** y **Educación para el desarrollo sostenible (48.7%)** refuerzan la demanda por un enfoque educativo centrado en la equidad, accesibilidad y sostenibilidad. Esto demanda fortalecer mecanismos de aseguramiento de la calidad, políticas de admisión inclusivas y currículos que integren competencias para el desarrollo sostenible.
+
+### Desafíos emergentes
+
+- **Ética en inteligencia artificial** presenta baja prioridad alta (22.2%) y dispersión en las respuestas. Aunque no se percibe como prioritaria, su relevancia futura es innegable ante los avances tecnológicos. El PEI debería anticiparse e incorporar orientaciones éticas en sus políticas de innovación educativa y uso de tecnologías.
+- **Apropiación social del conocimiento**, a pesar de su potencial transformador, obtiene 13.7% de respuestas que indican *“Sin prioridad”*. Esto sugiere un vacío de apropiación institucional o desconocimiento conceptual. El PEI podría incluir acciones de sensibilización y formación en este eje para ampliar su comprensión e implementación.
+
+### Cohesión académica y pertinencia social
+
+Temas como **Liderazgo académico (43.6%)**, **Formación y mercado laboral (41%)**, y **Educación y movilidad social (41.9%)** destacan la preocupación por la pertinencia de la formación y la empleabilidad. El PEI debe integrar políticas que fortalezcan la actualización docente, la formación continua, la inserción laboral de egresados y el seguimiento de trayectorias profesionales.
+
+### Implicaciones para el PEI
+
+1. **Jerarquización estratégica:** Los resultados permiten definir un orden de prioridades institucionales que pueden orientar los ejes estructurantes del nuevo PEI.
+2. **Ajuste curricular:** Se hace necesario revisar los planes de estudio y programas académicos para responder mejor a los temas altamente valorados.
+3. **Innovación con enfoque ético:** A pesar de su baja prioridad percibida, la ética en IA y la transformación digital deben ocupar un lugar estratégico como desafíos emergentes.
+4. **Territorialización efectiva:** El énfasis en la región Orinoquía y en la superación de brechas territoriales debe reflejarse en una política institucional transversal.
+5. **Educación transformadora:** Incorporar de manera transversal la sostenibilidad, la inclusión y la igualdad de género como principios rectores del PEI, reforzando su articulación con los principios institucionales y los ODS.
+
+Este análisis proporciona una base para la toma de decisiones fundamentadas y orientadas al fortalecimiento de la misión de Unitrópico como universidad pública regional, pertinente y con vocación de transformación social.
+
+----
+
+
+
+
 # Instrumento PEI -  estudiantes
 El instrumento aplicado a los estudiantes de UNITROPICO, se presentó en sesión de socialización realizada el 10 de junio de 2025. En esta sesión, se presentaron algunos lineamientos que guían la actualización del PEI, en particular, los aspectos alineados con la revisión de la misión y la visión de UNITROPICO y se invito a los estudiantes asistentes a diligenciar el formulario disponible en: ()
 
