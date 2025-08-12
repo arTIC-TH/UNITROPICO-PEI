@@ -1,11 +1,6 @@
 
 ---
 title: "Documento Institucional - Unitrópico, verificación Estatuto General"
-format:
-  html: default
-  pdf: default
-  docx: default
-  pptx: default
 ---
 
 # Misión
