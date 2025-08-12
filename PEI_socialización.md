@@ -1,7 +1,10 @@
 
 ---
 title: "Documento Institucional - Unitrópico, verificación Estatuto General"
+
+Fuente: (https://investigacion.unitropico.edu.co/wp-content/uploads/2022/11/Resolucion-012703-13-JUL-2021.pdf)
 ---
+
 
 # Misión
 La Universidad Internacional del Trópico Americano, Unitrópico, es la universidad pública de Casanare, que forma integralmente personas con criterios humanísticos, solidarios, bioéticos, científicos e innovadores, con el fin de que sean profesionales y ciudadanos autónomos, con pensamiento crítico y una visión integral de los problemas humanos y ambientales. Promueve la investigación científica, el desarrollo tecnológico, la innovación, el emprendimiento y las artes para potencializar la riqueza natural, la biodiversidad y la diversidad étnica y cultural; permitiendo la generación y utilización de prácticas sostenibles en el ámbito económico y social, que hagan frente a los desafíos del planeta. Así, mediante la articulación de la docencia, la investigación, la proyección social y la internacionalización; Unitrópico contribuye con la generación, divulgación y aplicación del conocimiento, que proyecte a la Orinoquia hacia el país y el mundo.
@@ -49,7 +52,7 @@ Los campos de acción de la Universidad Internacional del Trópico Americano, Un
 15. Promover el sentido de pertenencia.  
 16. Desarrollar estrategias de gestión con visión y administración eficiente y transparente de los recursos institucionales orientadas al logro del plan de desarrollo institucional y metas estratégicas.  
 17. Generar las condiciones que propicien la confianza de Unitrópico con el Estado, el Sector Productivo, las Entidades sin Ánimo de Lucro y de Régimen Especial, para posicionar a la institución en los ámbitos regional, nacional e internacional, con proyección hacia el desarrollo sostenible.  
-18. Garantizar mecanismos en la gestión del conocimiento y la gestión documental para preservar la memoria institucional y facilitar la toma de decisiones.  
+18. Garantizar mecanismos en la gestión del conocimiento y la gestión documental para preservar la memoria institucional y facilitar la toma de decisiones. 
 19. Motivar y comprometer la comunidad universitaria hacia la paz, la descentralización, el desarrollo regional y nacional, a través de una convivencia ciudadana constructiva de paz y reconciliación a través de una cultura de tolerancia y equidad.  
 
 
