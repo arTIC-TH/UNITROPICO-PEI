@@ -1,0 +1,125 @@
+---
+title: "Scientific Mapping of Doctoral Careers (Early Stage)"
+author: "SCRiveraT"
+date: "2025-09-05"
+format:
+  html: default
+  pdf: default
+  docx: default
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+This document illustrates the methodological steps for constructing a **scientific landscape** in the field of *doctoral careers early stage*. It integrates bibliometric analysis, co-occurrence of concepts, clustering, and thematic evolution.
+
+---
+
+# Methodological Stages
+
+## 1. Data Collection
+- Source: ISI’s Web of Science (SCI-Expanded).  
+- Example: 3,000 articles (2005–2023) with keywords such as *doctoral careers*, *early career researchers*, *PhD employment*, *postdoctoral pathways*.  
+- Each record includes: authors, year, keywords, cited references.
+
+## 2. Extraction of Relevant Information
+- Selected data: citations, keywords, institutions, year of publication.  
+- Example of extracted relationships:  
+
+| Article Origin       | Article Cited          | Year |
+|----------------------|------------------------|------|
+| A: Mobility          | B: Labor market        | 2012 |
+| C: Gender gaps       | A: Mobility            | 2015 |
+
+## 3. Construction of Citation Network
+- Articles → nodes.  
+- Citations → directed edges.  
+- Result: a large dense graph showing intellectual connections.  
+
+Example:  
+- *PhD mobility* → cites *Labor market outcomes*.  
+- *Gender gaps in doctoral careers* → cites *PhD mobility*.
+
+## 4. Processing / Network Reduction
+- Filtering: retain only relevant nodes (e.g., ≥15 citations).  
+- Normalization: merging duplicates, correcting author names.  
+- Example: from 3,000 to 1,200 influential articles.
+
+## 5. Identification of Clusters
+- Algorithm: Louvain, modularity, or k-means.  
+- Definition: **a cluster is a community of articles or concepts strongly connected internally and weakly linked externally.**
+
+Example of clusters in *doctoral careers early*:  
+1. **Labor market outcomes** (employment, wages, overqualification).  
+2. **International mobility & postdocs** (brain drain, contracts, circulation).  
+3. **Gender and diversity inequalities** (gender gap, glass ceiling, diversity).  
+4. **Non-academic careers** (industry, entrepreneurship, transitions).
+
+## 6. Visualization and Comparison
+- Visual map of clusters (scientific landscape).  
+- Bubble size = number of articles.  
+- Distance = conceptual closeness.  
+- Connections show inter-cluster links (e.g., gender inequalities intersecting all topics).
+
+---
+
+# Co-Occurrence of Concepts
+
+## Definition
+- Frequency with which two keywords appear together in one or more articles.  
+- Constructed as a network:  
+  - Nodes = concepts.  
+  - Edges = strength of co-occurrence.
+
+## Example (doctoral careers early)
+
+| Concept 1                | Concept 2              | Nº co-occurrences |
+|---------------------------|-----------------------|-------------------|
+| Early career researchers | Mobility              | 120               |
+| Early career researchers | Gender inequality     | 90                |
+| PhD labor market         | Non-academic careers  | 150               |
+
+- Strong link between *labor market* and *non-academic careers* → many studies explore jobs outside academia.
+
+---
+
+# Discovery of New Themes
+
+New topics can be detected by:
+1. **New or rare keywords** starting to co-occur (e.g., *mental health*, *work–life balance*).  
+2. **Hot papers**: highly cited recent articles.  
+3. **Subclusters splitting off** from large clusters (e.g., *virtual mobility* from *international mobility*).  
+4. **Rapid growth trends** in publications on a theme.
+
+---
+
+# The Academic Landscape
+
+## Definition
+- A **cartographic representation of knowledge** in a field.  
+- Clusters = thematic regions.  
+- Size = relative importance.  
+- Distance = conceptual similarity.  
+- Dynamics = how topics evolve.
+
+## Analogy
+- Each article = city.  
+- Each citation = road.  
+- Each region = cluster.  
+- The full map = scientific landscape.
+
+## Example (doctoral careers early)
+- **Large region**: Labor market outcomes.  
+- **Connected region**: International mobility.  
+- **Emerging region**: PhD well-being & mental health.  
+- **Transversal theme**: Gender inequalities (connecting all clusters).
+
+---
+
+# Conclusion
+
+The bibliometric approach combining **citation analysis, co-occurrence, clustering, and visualization** enables the creation of an **academic landscape** for doctoral careers.  
+This landscape highlights dominant topics, reveals hidden connections, and identifies **emerging research areas** such as well-being, precarity, and non-academic career pathways.
