@@ -1,13 +1,4 @@
----
-title: "Reuniones PEI - Miércoles y Socialización"
-format:
-  html: default
-  docx: default
-  pdf: default
-  pptx: default
-execute:
-  echo: false
----
+# Reuniones PEI
 
 # Calendario de reuniones PEI  
 _Período: 13 de mayo – 10 de septiembre de 2025_  
