@@ -3,8 +3,7 @@
 | **Presentación PEI vigente (2021)**                                                        |        |               |
 | **Presentación PEI vigente (2021)**                                                        |        |               |
 | **Presentación PEI vigente (2021)**                                                        |        |               |
-| **Presentación PEI vigente (2021)**                                                        |        | Resolución Rectoral No. 237 de 2021
-(24 de septiembre de 2021) <br>“Por medio de la cual se adopta el Proyecto Educativo Institucional de la Universidad Internacional del Trópico Americano y se dictan otras disposiciones”<br>El Rector de la Universidad Internacional del Trópico Americano Unitrópico, en uso de sus atribuciones constitucionales, legales, reglamentarias, estatutarias, especialmente los artículos 36, 123, 124 y 126 del Estatuto General de la universidad, y |
+| **Presentación PEI vigente (2021)**                                                        |        | Resolución Rectoral No. 237 de 2021 <br>(24 de septiembre de 2021) <br>“Por medio de la cual se adopta el Proyecto Educativo Institucional de la Universidad Internacional del Trópico Americano y se dictan otras disposiciones”<br>El Rector de la Universidad Internacional del Trópico Americano Unitrópico, en uso de sus atribuciones constitucionales, legales, reglamentarias, estatutarias, especialmente los artículos 36, 123, 124 y 126 del Estatuto General de la universidad, y |
 | **Presentación PEI vigente (2021)**                                                        |        |  Considerando <br>             |
 | **Presentación PEI vigente (2021)**                                                        |        | Resuelve <br> Articulo 1. Objeto. Adoptar y es              |
 | **Presentación PEI vigente (2021)**                                                        |        |               |
